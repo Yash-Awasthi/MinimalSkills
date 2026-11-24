@@ -1,3 +1,0 @@
-interface:
-  display_name: "RHDH Pull Request"
-  short_description: "Validate and publish RHDH plugin pull requests"

@@ -1,6 +1,0 @@
-interface:
-  display_name: "Clean Prose"
-  short_description: "Pass a supplied draft to the prose editor"
-  default_prompt: "Use $clean-prose to edit the prose or file I supply."
-policy:
-  allow_implicit_invocation: false

@@ -1,3 +1,0 @@
-interface:
-  display_name: "RHDH Write Gate"
-  short_description: "State every external write, get approval, execute, report each outcome"

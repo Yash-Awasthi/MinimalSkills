@@ -1,3 +1,0 @@
-interface:
-  display_name: "OpenSpec Journal"
-  short_description: "Append-only interaction journal and event vocabulary for an OpenSpec change"

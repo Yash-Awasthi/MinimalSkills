@@ -1,3 +1,0 @@
-interface:
-  display_name: "RHDH Package Impact"
-  short_description: "Classify Dependabot package impact and bump workspace CVEs"

@@ -1,3 +1,0 @@
-interface:
-  display_name: "RHDH PR / MR"
-  short_description: "Open a GitHub PR or GitLab MR with AI/tool attribution and linked Jira"

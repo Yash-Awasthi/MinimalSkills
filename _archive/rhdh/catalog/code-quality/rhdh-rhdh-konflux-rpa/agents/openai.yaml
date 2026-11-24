@@ -1,3 +1,0 @@
-interface:
-  display_name: "RHDH Konflux RPA"
-  short_description: "Update release-data RPA tags for one RHDH patch"

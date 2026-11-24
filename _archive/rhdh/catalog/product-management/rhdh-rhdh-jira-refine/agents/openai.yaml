@@ -1,3 +1,0 @@
-interface:
-  display_name: "RHDH Jira Refine"
-  short_description: "Check RHDH Jira issues for readiness and backlog hygiene"

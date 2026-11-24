@@ -1,3 +1,0 @@
-interface:
-  display_name: "RHDH Plugin Wiring"
-  short_description: "Generate dynamic-plugins.yaml wiring for a frontend plugin"

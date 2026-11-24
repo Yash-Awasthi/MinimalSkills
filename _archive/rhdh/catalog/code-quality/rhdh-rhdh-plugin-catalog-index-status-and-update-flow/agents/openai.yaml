@@ -1,3 +1,0 @@
-interface:
-  display_name: "Catalog index status"
-  short_description: "Report and update the downstream plugin catalog index"

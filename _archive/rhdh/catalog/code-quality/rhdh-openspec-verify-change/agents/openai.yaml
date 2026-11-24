@@ -1,3 +1,0 @@
-interface:
-  display_name: "OpenSpec Verify Change"
-  short_description: "Verify an implementation matches its OpenSpec change's specs, tasks, and design"

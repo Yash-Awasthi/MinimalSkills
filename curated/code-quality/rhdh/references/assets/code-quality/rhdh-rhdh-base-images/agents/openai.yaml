@@ -1,3 +1,0 @@
-interface:
-  display_name: "RHDH Base Images"
-  short_description: "Analyze and update images, toolchains, and RPM locks"

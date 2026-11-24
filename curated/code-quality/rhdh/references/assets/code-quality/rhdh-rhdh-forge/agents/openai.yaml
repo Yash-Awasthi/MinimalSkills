@@ -1,3 +1,0 @@
-interface:
-  display_name: "RHDH Forge"
-  short_description: "Read GitHub and GitLab issues, PRs, MRs, and checks for other RHDH skills"

@@ -1,78 +1,65 @@
-# Skills collection
+# Skills
 
-Local mirror of public agent-skill repositories, segregated into subject folders with a master index.
+A curated library of **18 self-contained skills** for AI coding agents,
+distilled from 2,105 source skills across 22 subject classes. Each skill is
+**one standalone `SKILL.md`** — every policy, rule, procedure, script
+contract and workflow is inlined in the file itself. No external references:
+load one file and the whole domain playbook is present.
 
-## Layout
+Focused on software development. Marketing, HR, healthcare, hardware/IoT and
+general-education classes were dropped as out of scope.
 
-| Path | Purpose |
-| --- | --- |
-| `catalog/<subject>/` | Skill folders grouped by use case. Each contains real skill directories (frontmatter + instructions + assets), moved here from `packs/`. |
-| `catalog/<subject>/INDEX.md` | Every skill in that subject with its own description and path. |
-| `INDEX.md` | Master index: all 27 subjects with counts, plus the source mirror list. |
-| `catalog/REPOS.md` | The 83 source mirrors with upstream URL, commit and skill count. |
-| `catalog/_classification.tsv` | Audit trail: subject, skill, description, path for every indexed skill. |
-| `curated/` | Compacted skills. One skill per redundant cluster, with merged workflows and provenance. |
-| `_archive/` | Source skills replaced by a curated skill. Original paths kept for restore. |
-| `repos/` | One shallow git clone per upstream repo, named `<owner>-<repo>`, kept as raw source material. |
-| `catalog.py` | Per-file classifier: reads each `SKILL.md`, assigns a subject, moves folders, rebuilds indexes. |
-| `repos.manifest.tsv` | Generated inventory of clones: URL, branch, commit, commit date, `SKILL.md` count, file count. |
-| `update-repos.sh` | Refreshes all clones and regenerates the manifest. |
+## The skills
 
-## Subjects
+| # | Skill | Merges | Sources |
+| --- | --- | --- | --- |
+| 1 | [engineering-craft](top/engineering-craft/SKILL.md) | code-quality + testing-qa | 362 |
+| 2 | [ai-agents-orchestration](top/ai-agents-orchestration/SKILL.md) | ai-agents | 227 |
+| 3 | [backend-api](top/backend-api/SKILL.md) | backend-api | 218 |
+| 4 | [devops-cloud](top/devops-cloud/SKILL.md) | devops-cloud | 185 |
+| 5 | [security-operations](top/security-operations/SKILL.md) | cyber-security + compliance-audit | 180 |
+| 6 | [frontend-ui](top/frontend-ui/SKILL.md) | frontend-ui | 166 |
+| 7 | [writing-docs](top/writing-docs/SKILL.md) | writing-docs | 124 |
+| 8 | [business-finance](top/business-finance/SKILL.md) | business-finance | 109 |
+| 9 | [design-ux](top/design-ux/SKILL.md) | design-ux | 99 |
+| 10 | [strategy-product](top/strategy-product/SKILL.md) | strategy-executive + product-management | 87 |
+| 11 | [data-ml](top/data-ml/SKILL.md) | data-ml | 68 |
+| 12 | [media-creative](top/media-creative/SKILL.md) | media-creative | 64 |
+| 13 | [office-productivity](top/office-productivity/SKILL.md) | office-productivity | 55 |
+| 14 | [mobile-apps](top/mobile-apps/SKILL.md) | mobile | 40 |
+| 15 | [game-dev](top/game-dev/SKILL.md) | game-dev | 39 |
+| 16 | [research-education](top/research-education/SKILL.md) | research-academic | 34 |
+| 17 | [platform-general](top/platform-general/SKILL.md) | general + integrations-automation | 29 |
+| 18 | [web3-blockchain](top/web3-blockchain/SKILL.md) | blockchain-web3 | 19 |
 
-`cyber-security`, `compliance-audit`, `frontend-ui`, `backend-api`, `mobile`, `devops-cloud`,
-`blockchain-web3`, `data-ml`, `integrations-automation`, `ai-agents`, `hardware-iot`, `testing-qa`,
-`code-quality`, `design-ux`, `product-management`, `strategy-executive`, `marketing-growth`,
-`writing-docs`, `business-finance`, `media-creative`, `game-dev`, `office-productivity`,
-`research-academic`, `hr-people`, `general`.
+Full details and per-hub line counts: [top/INDEX.md](top/INDEX.md).
 
-Classification is per file: `catalog.py` reads the `SKILL.md` frontmatter `name` and `description`
-(and follows pointer stubs into `repos/` when a pack only references another file), scores the text
-against subject keyword rules, and assigns the highest-scoring subject. It writes
-`catalog/_classification.tsv` so any assignment can be audited.
+## Format
 
-## Browsing
+Each `SKILL.md` carries:
 
-```bash
-# master index
-cat INDEX.md
+- **Frontmatter** — name, description, merge provenance and source count.
+- **Iron laws** — the binding contracts distilled from the source packs
+  (authorization gates, version discipline, fail-closed rules, style rules).
+- **Numbered sections** — the full domain playbook, all procedures inline.
+- **Output contract** — what a completed task must report.
+- **Failure handling** — what to do when evidence is missing or contradicts
+  the request.
+- **Provenance** — merges, source counts, preservation notes.
 
-# everything in one subject
-cat catalog/cyber-security/INDEX.md
+## Guarantees
 
-# search every skill description
-grep -ril "kubernetes" catalog/*/INDEX.md
-```
+1. **Zero external references** — verified: no hub points at `catalog/`,
+   `curated/`, `_archive/` or any `references/` directory.
+2. **Duplicates collapsed, nothing dropped** — where many sources said the
+   same thing, one canonical statement carries it.
+3. **Fail-closed rules kept** — every "stop when evidence is missing" rule
+   from the sources is preserved.
+4. **History preserved** — the pre-cleanup snapshot (raw `catalog/`,
+   `curated/` and `_archive/` trees, 38,495 files) lives in the git history
+   (commit `020b5425`).
 
-## Manual audit status
+## Install
 
-All 27 subject folders have been hand-audited row by row using each skill's name and description;
-misfits were moved to their proper subject and every index was rebuilt afterwards. Remaining
-placements are judgment calls, not automation output.
-
-## Adding new skills
-
-1. Drop skill folders into `packs/`, or clone a repo into `repos/` and copy its skill folders into `packs/`.
-2. Run `python catalog.py` for a dry-run distribution.
-3. Run `python catalog.py --apply` to move them into `catalog/<subject>/` and rebuild every index.
-
-## Updating mirrors
-
-```bash
-./update-repos.sh
-```
-
-Fetches and fast-forwards each clone, prints `UPDATED`/`FAIL`/`SKIP` per repo, and rewrites
-`repos.manifest.tsv`. Clean mirrors are hard-reset to the fetched tip (shallow clones have no shared
-ancestry); any repo with local changes or untracked files is skipped untouched.
-
-## Health check
-
-```bash
-# subjects and counts
-awk -F'\\t' 'NR>1 && $6==0 {print $1}' repos.manifest.tsv   # repos with no SKILL.md
-awk -F'\\t' 'NR>1 {n++; s+=$6} END {print n" repos, "s" SKILL.md"}' repos.manifest.tsv
-
-# skills per subject
-for d in catalog/*/; do printf "%5d %s\n" "$(find "$d" -name SKILL.md | wc -l)" "$(basename "$d")"; done | sort -rn
-```
+Copy the hub directories you need into your agent's skills directory, or
+clone the repo and symlink `top/<skill>` entries.

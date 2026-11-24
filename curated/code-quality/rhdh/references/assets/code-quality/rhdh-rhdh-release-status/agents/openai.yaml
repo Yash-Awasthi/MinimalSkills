@@ -1,3 +1,0 @@
-interface:
-  display_name: "RHDH Release Status"
-  short_description: "Open issues, blockers, CVEs, and notes for a release"

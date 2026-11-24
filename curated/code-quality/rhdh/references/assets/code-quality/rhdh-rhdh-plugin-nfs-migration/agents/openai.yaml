@@ -1,3 +1,0 @@
-interface:
-  display_name: "RHDH Plugin NFS Migration"
-  short_description: "Migrate a Backstage frontend plugin to the New Frontend System"
