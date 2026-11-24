@@ -1,0 +1,17 @@
+skill	group	description	reference	source_count
+app-patterns	Application patterns	Architecture and integration sketches for LLM applications, with explicit retrieval, tool, privacy and verification boundaries.	references/skills/app-patterns.md	1
+app-security	Security	Secure LLM-powered applications with input validation, output controls, tenant isolation, and abuse prevention.	references/skills/app-security.md	1
+application-dev-ai-assistant	Application patterns	Design and implement conversational AI assistants with context management, integration boundaries, and validation.	references/skills/application-dev-ai-assistant.md	1
+application-dev-langchain-agent	Application patterns	You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and LangGraph.	references/skills/application-dev-langchain-agent.md	1
+application-dev-prompt-optimize	Prompting and output	Improve LLM prompts using task-specific evaluation, structured instructions, and regression checks.	references/skills/application-dev-prompt-optimize.md	1
+caching	Cost and caching	Implement multi-layer LLM caching with exact match, semantic similarity, and provider-side prompt caching.	references/skills/caching.md	1
+cost-optimization	Cost and caching	Reduce LLM API and infrastructure costs through model selection, prompt caching, batching, caching, quantization, and self-hosting strategies.	references/skills/cost-optimization.md	1
+council	Council and scaling	Run Fireworks-hosted open-weight model councils that compare responses and synthesize a final answer.	references/skills/council.md	1
+evaluation	Evaluation and tuning	Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing.	references/skills/evaluation.md	1
+fine-tuning	Evaluation and tuning	Set up infrastructure for fine-tuning LLMs with QLoRA, LoRA, and full fine-tuning using Hugging Face TRL, Axolotl, and distributed training with DeepSpeed or FSDP.	references/skills/fine-tuning.md	1
+gateway	Cost and caching	Deploy an API gateway for LLM traffic with load balancing, rate limiting, key management, semantic caching, fallback routing, and cost tracking.	references/skills/gateway.md	1
+inference-scaling	Council and scaling	Auto-scale LLM inference clusters on Kubernetes using KEDA, custom GPU metrics, and horizontal pod autoscaling.	references/skills/inference-scaling.md	1
+ops	Application patterns	LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals de qualidade e arquiteturas de IA para producao.	references/skills/ops.md	1
+prompt-optimizer	Prompting and output	Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage.	references/skills/prompt-optimizer.md	1
+security	Security	Authorized security assessment of LLM applications and AI agents: prompt injection, tool abuse, RAG exposure, memory poisoning, system-prompt extraction, and agent-compliance engineering per OWASP LLM/ASI Top 10.	references/skills/security.md	1
+structured-output	Prompting and output	Get reliable JSON, enums, and typed objects from LLMs using response_format, tool_use, and schema-constrained decoding across OpenAI, Anthropic, and Google APIs.	references/skills/structured-output.md	1

@@ -1,0 +1,16 @@
+skill	group	description	reference	source_count
+async	Async and TaskEither	Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real API examples	references/skills/async.md	1
+backend	Data and backend	Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection	references/skills/backend.md	1
+data-transforms	Data and backend	Everyday data transformations using functional patterns - arrays, objects, grouping, aggregation, and null-safe access	references/skills/data-transforms.md	1
+either-ref	Option and Either	Quick reference for Either type. Use when user needs error handling, validation, or operations that can fail with typed errors.	references/skills/either-ref.md	1
+errors	Error handling	Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more predictable code	references/skills/errors.md	1
+option-ref	Option and Either	Quick reference for Option type. Use when user needs to handle nullable values, optional data, or wants to avoid null checks.	references/skills/option-ref.md	1
+pipe-ref	Core concepts	Quick reference for pipe and flow. Use when user needs to chain functions, compose operations, or build data pipelines in fp-ts.	references/skills/pipe-ref.md	1
+pragmatic	Core concepts	A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead	references/skills/pragmatic.md	1
+react	React and refactoring	Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Includes version-specific React examples; verify framework/client boundaries.	references/skills/react.md	1
+refactor	React and refactoring	Comprehensive guide for refactoring imperative TypeScript code to fp-ts functional patterns	references/skills/refactor.md	1
+taskeither-ref	Async and TaskEither	Quick reference for TaskEither. Use when user needs async error handling, API calls, or Promise-based operations that can fail.	references/skills/taskeither-ref.md	1
+ts-errors	Error handling	Handle errors as values using fp-ts Either and TaskEither for cleaner, more predictable TypeScript code. Use when implementing error handling patterns with fp-ts.	references/skills/ts-errors.md	1
+ts-pragmatic	Core concepts	A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.	references/skills/ts-pragmatic.md	1
+ts-react	React and refactoring	Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Includes version-specific React patterns requiring project verification.	references/skills/ts-react.md	1
+types-ref	Core concepts	Quick reference for fp-ts types. Use when user asks which type to use, needs Option/Either/Task decision help, or wants fp-ts imports.	references/skills/types-ref.md	1

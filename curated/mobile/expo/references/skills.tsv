@@ -1,0 +1,14 @@
+skill	group	description	reference	source_count
+animation	UI and animation	Curated upstream guidance for Expo Animation; use when the workflow matches the user goal.	references/skills/animation.md	1
+api-routes	Routing and backend	Guidelines for creating API routes in Expo Router with EAS Hosting	references/skills/api-routes.md	1
+brownfield	Native integration	Integrate Expo and React Native into an existing native iOS or Android app. Use when the user mentions brownfield, embedding React Native in a native app, AAR/XCFramework, or adding Expo to an existing Kotlin/Swift project. Covers both the isolated approach and the integrated approach.	references/skills/brownfield.md	1
+cicd-workflows	Build and release	Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation.	references/skills/cicd-workflows.md	1
+deployment	Build and release	Deploy Expo apps with EAS: build and submit iOS and Android releases, configure build and submit profiles, manage versions and store metadata, and deploy web bundles or API routes.	references/skills/deployment.md	1
+dev-client	Build and release	Build Expo app for development	references/skills/dev-client.md	1
+examples	Examples and diagnostics	Expo's official example projects — the expo/examples repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI, maps, Reanimated, SQLite, Skia, NativeWind, and more).	references/skills/examples.md	1
+module	Native integration	Guide for creating and writing Expo native modules and views using the Expo Modules API (Swift, Kotlin, TypeScript). Covers module definition DSL, native views, shared objects, config plugins, lifecycle hooks, autolinking, and type system.	references/skills/module.md	1
+observe	Examples and diagnostics	Set up and query EAS Observe for Expo apps, including root integration, interactive markers, route metrics, CLI summaries, traces, logs, and performance diagnosis.	references/skills/observe.md	1
+tailwind-setup	Styling	Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling	references/skills/tailwind-setup.md	1
+ui	UI and animation	Build native UI with the @expo/ui package: real SwiftUI on iOS and Jetpack Compose on Android rendered from React in an Expo or React Native app.	references/skills/ui.md	1
+ui-jetpack-compose	UI and animation	Build Android-native Expo SDK 55 UI with Jetpack Compose views/modifiers, Host sizing and platform-specific integration.	references/skills/ui-jetpack-compose.md	1
+ui-swift-ui	UI and animation	Build iOS-native Expo SDK 55 UI with SwiftUI views/modifiers, Host/RNHostView embedding and native rebuild prerequisites.	references/skills/ui-swift-ui.md	1

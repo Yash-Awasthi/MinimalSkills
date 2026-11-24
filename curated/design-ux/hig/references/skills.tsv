@@ -1,0 +1,15 @@
+skill	group	description	reference	source_count
+components-content	Content and display	Apple Human Interface Guidelines for content display components.	references/skills/components-content.md	1
+components-controls	Controls and inputs	Choose and review Apple selection and input controls: toggles, segmented controls, sliders, pickers, steppers, text fields, labels and keyboard behavior.	references/skills/components-controls.md	1
+components-dialogs	Presentation	Apple HIG guidance for presentation components including alerts, action sheets, popovers, sheets, and digit entry views.	references/skills/components-dialogs.md	1
+components-layout	Layout and navigation	Apple Human Interface Guidelines for layout and navigation components.	references/skills/components-layout.md	1
+components-menus	Menus and actions	Design Apple-platform menus, buttons, toolbars and disclosure controls using the appropriate platform conventions, command hierarchy and accessible interactions.	references/skills/components-menus.md	1
+components-search	Layout and navigation	Apple HIG guidance for navigation-related components including search fields, page controls, and path controls.	references/skills/components-search.md	1
+components-status	Status and system	Apple HIG guidance for status and progress UI components including progress indicators, status bars, and activity rings.	references/skills/components-status.md	1
+components-system	Status and system	Apple HIG guidance for system experience components: widgets, live activities, notifications, complications, home screen quick actions, top shelf, watch faces, app clips, and app shortcuts.	references/skills/components-system.md	1
+foundations	Foundations and context	Apple Human Interface Guidelines design foundations.	references/skills/foundations.md	1
+inputs	Controls and inputs	Design Apple-platform input interactions for touch, keyboard, pointer, Pencil, controllers, spatial gestures and supported device sensors, with accessible alternatives.	references/skills/inputs.md	1
+patterns	Patterns and platforms	Apple Human Interface Guidelines interaction and UX patterns.	references/skills/patterns.md	1
+platforms	Patterns and platforms	Apple Human Interface Guidelines for platform-specific design.	references/skills/platforms.md	1
+project-context	Foundations and context	Create or update a shared Apple design context document that other HIG skills use to tailor guidance.	references/skills/project-context.md	1
+technologies	Technologies	Review Apple-platform technology UX against HIG patterns for payments, health data, identity, Siri, AR, cloud sync, and shared experiences. Use for integration flow design, permission planning, and accessibility checks.	references/skills/technologies.md	1

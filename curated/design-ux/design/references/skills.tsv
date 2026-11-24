@@ -1,0 +1,13 @@
+skill	group	description	reference	source_count
+it	Direction and style	Routes frontend design tasks to 48 specific UI styles. Triggers for websites, app screens, or UI components requesting a specific aesthetic.	references/skills/it.md	1
+md	Orchestration and documentation	Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files	references/skills/md.md	1
+orchestration	Orchestration and documentation	Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order.	references/skills/orchestration.md	1
+philosophy	Direction and style	Visual philosophy and art-direction for frontend. Use when creating high-concept work, campaigns, or when the user asks for a visual philosophy, manifesto, or unmistakable art-like aesthetic.	references/skills/philosophy.md	1
+spatial	Spatial and usability	Design — spatial composition	references/skills/spatial.md	1
+spells	Micro-interactions	Curated micro-interactions and design details that add "magic" and personality to websites and apps.	references/skills/spells.md	1
+system	System mechanics	Mechanical implementation invariants for frontend design: token architecture, typography hierarchy, loading order, FOUT prevention, chrome stability, motion timing, color semantics. Use with design when building components, pages, or design systems.	references/skills/system.md	1
+taste-frontend	High-agency frontend	Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules.	references/skills/taste-frontend.md	1
+theme-guide	System mechanics	Design-token register: colour, typography, spacing and radius tokens with light and dark values, contrast ratio and WCAG level. Use for design system documentation.	references/skills/theme-guide.md	1
+thinking	Direction and style	Direction and intent for frontend design. Use with design when defining purpose, tone, domain, color world, and review bar; includes cross-domain lens from cinema, architecture, marketing, UX, automotive, industrial design.	references/skills/thinking.md	1
+token-contrast	System mechanics	Checks WCAG 2.2 contrast between the color tokens of a project (light and dark theme) and suggests the closest passing color that keeps the hue.	references/skills/token-contrast.md	1
+ux	Spatial and usability	UX / usability audit — heuristic evaluation of INTERACTIVE UIs (not just visual polish). Load with design when a UI \"feels off\", \"sucks to use\", is hard to learn, needs an instruction wall, or before shipping an interactive tool/editor/app.	references/skills/ux.md	1

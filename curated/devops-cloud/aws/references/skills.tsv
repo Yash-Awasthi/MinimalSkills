@@ -1,0 +1,26 @@
+skill	group	description	reference	source_count
+agentic-ai	AI platforms	AWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale. Use when working with any AgentCore service including Gateway, Runtime, Memory, Identity, Code Interpreter, Browser, Observability, Agent Registry, or Evaluations.	references/skills/agentic-ai.md	1
+cdk-development	Architecture and infrastructure as code	AWS Cloud Development Kit (CDK) expert for building cloud infrastructure with TypeScript/Python.	references/skills/cdk-development.md	1
+cloudtrail	Audit, compliance, and testing	Configure AWS CloudTrail for audit logging. Set up organization trails and event analysis. Use when auditing AWS activity.	references/skills/cloudtrail.md	1
+compliance-checker	Audit, compliance, and testing	Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks	references/skills/compliance-checker.md	1
+cost-cleanup	Cost	Automated cleanup of unused AWS resources to reduce costs	references/skills/cost-cleanup.md	1
+cost-operations	Cost	AWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying logs, auditing CloudTrail activity, or assessing security posture.	references/skills/cost-operations.md	1
+cost-optimization	Cost	Reduce AWS spend with rightsizing, autoscaling, commitment planning, and storage lifecycle policies. Use when running FinOps reviews, lowering cloud bills, or improving cost-per-request metrics.	references/skills/cost-optimization.md	1
+cost-optimizer	Cost	Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer	references/skills/cost-optimizer.md	1
+ec2	Compute and serverless	Manage EC2 instances, AMIs, and auto-scaling groups. Configure security groups, key pairs, and instance types. Use when deploying compute resources on AWS.	references/skills/ec2.md	1
+ecs-fargate	Compute and serverless	Deploy containers on ECS and Fargate. Configure task definitions, services, and load balancing. Use when running containerized workloads on AWS.	references/skills/ecs-fargate.md	1
+iam	Identity and secrets	Manage IAM users, roles, and policies. Implement least-privilege access and security best practices. Use when configuring AWS identity and access management.	references/skills/iam.md	1
+iam-best-practices	Identity and secrets	IAM policy review, hardening, and least privilege implementation	references/skills/iam-best-practices.md	1
+lambda	Compute and serverless	Build and deploy serverless functions on AWS Lambda. Configure triggers, manage permissions, and optimize performance. Use when implementing serverless applications.	references/skills/lambda.md	1
+mcp-setup	Tooling	Configure AWS MCP servers for documentation search and API access. Use when setting up AWS MCP, configuring AWS documentation tools, troubleshooting MCP connectivity, or when user mentions aws-mcp, awsdocs, uvx setup, or MCP server configuration.	references/skills/mcp-setup.md	1
+penetration-testing	Audit, compliance, and testing	Provide comprehensive techniques for penetration testing AWS cloud environments. Covers IAM enumeration, privilege escalation, SSRF to metadata endpoint, S3 bucket exploitation, Lambda code extraction, and persistence techniques for red team operations.	references/skills/penetration-testing.md	1
+rds	Databases	Provision and manage RDS databases. Configure backups, replication, and security. Use when deploying managed relational databases on AWS.	references/skills/rds.md	1
+s3	Networking and storage	Configure S3 buckets, policies, and lifecycle rules. Implement versioning, replication, and security. Use when managing object storage on AWS.	references/skills/s3.md	1
+secrets-manager	Identity and secrets	Store and rotate secrets in AWS Secrets Manager.	references/skills/secrets-manager.md	1
+secrets-rotation	Identity and secrets	Automate AWS secrets rotation for RDS, API keys, and credentials	references/skills/secrets-rotation.md	1
+security-audit	Audit, compliance, and testing	Comprehensive AWS security posture assessment using AWS CLI and security best practices	references/skills/security-audit.md	1
+serverless	Compute and serverless	Specialized skill for building production-ready serverless applications on AWS. Covers Lambda functions, API Gateway, DynamoDB, SQS/SNS event-driven patterns, SAM/CDK deployment, and cold start optimization.	references/skills/serverless.md	1
+serverless-eda	Compute and serverless	AWS serverless and event-driven architecture expert based on Well-Architected Framework. Use when building serverless APIs, Lambda functions, REST APIs, microservices, or async workflows.	references/skills/serverless-eda.md	1
+skills	Architecture and infrastructure as code	Plan and review AWS architecture and infrastructure changes using the upstream AWS skill collection.	references/skills/skills.md	1
+sst-development	Architecture and infrastructure as code	SST v4 (Ion) expert for managing AWS resources as code with the Pulumi-backed framework.	references/skills/sst-development.md	1
+vpc	Networking and storage	Design and implement VPCs and networking. Configure subnets, route tables, and security groups. Use when setting up AWS network infrastructure.	references/skills/vpc.md	1

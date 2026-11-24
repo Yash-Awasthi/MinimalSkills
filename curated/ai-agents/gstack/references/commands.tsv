@@ -1,0 +1,72 @@
+command	group	sources	description	file	source_paths
+alpha	Suite & session	1	Fixture dispatcher with a mode table and forced-read references.	references/commands/alpha.md	catalog/general/gstack-alpha
+beta	Suite & session	1	Clean fixture tool skill with no forced reads and no mode table.	references/commands/beta.md	catalog/ai-agents/gstack-beta
+captain	Suite & session	1	Run a crew of coding agents from one controller (also /crew): lanes send READY blocks and never merge; the controller merges through trains, keeps the digest, relays approvals, fixes flakes daily. (gstack)	references/commands/captain.md	catalog/ai-agents/gstack-captain
+careful	Suite & session	1	Safety guardrails for destructive commands. (gstack)	references/commands/careful.md	catalog/ai-agents/gstack-careful
+context-restore	Suite & session	1	Restore working context saved earlier by /context-save. (gstack)	references/commands/context-restore.md	catalog/ai-agents/gstack-context-restore
+context-save	Suite & session	1	Save working context. (gstack)	references/commands/context-save.md	catalog/ai-agents/gstack-context-save
+freeze	Suite & session	1	Restrict file edits to a specific directory for the session. (gstack)	references/commands/freeze.md	catalog/ai-agents/gstack-freeze
+garrytan-gstack	Suite & session	1	Router for the gstack skill suite. (gstack)	references/commands/garrytan-gstack.md	catalog/ai-agents/gstack-garrytan-gstack
+gstack	Suite & session	2	Install and use gstack in Capy and Claude Code. Load at session start to check this machine, and for gstack planning, code review, debugging, QA, design, security, documentation, and shipping workflows.	references/commands/gstack.md	catalog/ai-agents/gstack-garrytan-gstack/capy/skill/gstack;catalog/ai-agents/gstack-gstack
+guard	Suite & session	1	Full safety mode: destructive command warnings + directory-scoped edits. (gstack)	references/commands/guard.md	catalog/ai-agents/gstack-guard
+health	Suite & session	1	Code quality dashboard. (gstack)	references/commands/health.md	catalog/code-quality/gstack-health
+pair-agent	Suite & session	1	Pair a remote AI agent with your browser. (gstack)	references/commands/pair-agent.md	catalog/ai-agents/gstack-pair-agent
+runaway-stopper	Suite & session	1	Find runaway Capy threads and subagents, stop or rotate them safely, and prevent repeats. (gstack)	references/commands/runaway-stopper.md	catalog/ai-agents/gstack-runaway-stopper
+unfreeze	Suite & session	1	Clear the freeze boundary set by /freeze, allowing edits to all directories again. (gstack)	references/commands/unfreeze.md	catalog/ai-agents/gstack-unfreeze
+upgrade	Suite & session	2	Upgrade gstack to the latest version.	references/commands/upgrade.md	catalog/ai-agents/gstack-garrytan-gstack/gstack-upgrade;catalog/devops-cloud/gstack-gstack-upgrade
+autoplan	Planning & specs	1	Auto-review pipeline — runs the CEO, design, eng and DX reviews in order (lean run: one reviewer), auto-deciding. (gstack)	references/commands/autoplan.md	catalog/strategy-executive/gstack-autoplan
+office-hours	Planning & specs	1	YC Office Hours — two modes. (gstack)	references/commands/office-hours.md	catalog/strategy-executive/gstack-office-hours
+openclaw-ceo-review	Planning & specs	2	Use when asked to review a plan, challenge a proposal, run a CEO review, poke holes in an approach, think bigger about scope, or decide whether to expand or reduce the plan.	references/commands/openclaw-ceo-review.md	catalog/ai-agents/gstack-garrytan-gstack/openclaw/skills/gstack-openclaw-ceo-review;catalog/code-quality/gstack-gstack-openclaw-ceo-review
+openclaw-office-hours	Planning & specs	2	Use when asked to brainstorm, evaluate whether an idea is worth building, run office hours, or think through a new product idea or design direction before any code is written.	references/commands/openclaw-office-hours.md	catalog/ai-agents/gstack-garrytan-gstack/openclaw/skills/gstack-openclaw-office-hours;catalog/strategy-executive/gstack-gstack-openclaw-office-hours
+openclaw-retro	Planning & specs	2	Weekly engineering retrospective. Analyzes commit history, work patterns, and code quality metrics with persistent history and trend tracking. Team-aware with per-person contributions, praise, and growth areas. Use when asked for weekly retro, what shipped this week, or engineering retrospective.	references/commands/openclaw-retro.md	catalog/ai-agents/gstack-garrytan-gstack/openclaw/skills/gstack-openclaw-retro;catalog/ai-agents/gstack-gstack-openclaw-retro
+plan	Planning & specs	2	Use before building a feature: challenge the scope, then review architecture, code quality, tests and performance, and end with a plan to build. (gstack)	references/commands/plan.md	catalog/ai-agents/gstack-garrytan-gstack/qm/sandbox/skills/gstack-plan;catalog/strategy-executive/gstack-gstack-plan
+plan-ceo-review	Planning & specs	1	CEO/founder-mode plan review. (gstack)	references/commands/plan-ceo-review.md	catalog/code-quality/gstack-plan-ceo-review
+plan-design-review	Planning & specs	1	Designer's eye plan review — interactive, like CEO and Eng review. (gstack)	references/commands/plan-design-review.md	catalog/code-quality/gstack-plan-design-review
+plan-devex-review	Planning & specs	1	Interactive developer experience plan review. (gstack)	references/commands/plan-devex-review.md	catalog/code-quality/gstack-plan-devex-review
+plan-eng-review	Planning & specs	1	Eng manager-mode plan review. (gstack)	references/commands/plan-eng-review.md	catalog/code-quality/gstack-plan-eng-review
+plan-tune	Planning & specs	1	Self-tuning question sensitivity + developer psychographic for gstack (v1: observational). (gstack)	references/commands/plan-tune.md	catalog/strategy-executive/gstack-plan-tune
+retro	Planning & specs	1	Weekly engineering retrospective. (gstack)	references/commands/retro.md	catalog/ai-agents/gstack-retro
+spec	Planning & specs	1	Turn vague intent into a precise, executable spec in five phases. (gstack)	references/commands/spec.md	catalog/ai-agents/gstack-spec
+benchmark	Review & quality	1	Web performance regression detection. (gstack)	references/commands/benchmark.md	catalog/frontend-ui/gstack-benchmark
+benchmark-models	Review & quality	1	Cross-model benchmark for gstack skills. (gstack)	references/commands/benchmark-models.md	catalog/data-ml/gstack-benchmark-models
+cso	Review & quality	1	Security audit: supported static findings; qualified profiles add reproduction and repair candidates. (gstack)	references/commands/cso.md	catalog/ai-agents/gstack-cso
+deslop-shared-libs	Review & quality	1	Find worthwhile shared-code extractions in recent work. (gstack)	references/commands/deslop-shared-libs.md	catalog/code-quality/gstack-deslop-shared-libs
+devex-review	Review & quality	1	Live developer experience audit. (gstack)	references/commands/devex-review.md	catalog/code-quality/gstack-devex-review
+eval-plan	Review & quality	1	|	references/commands/eval-plan.md	catalog/ai-agents/gstack-eval-plan
+modernize	Review & quality	1	Bring an aging PR onto its current base and decide: MODERNIZE, REWORK or CLOSE. (gstack)	references/commands/modernize.md	catalog/code-quality/gstack-modernize
+review	Review & quality	1	Use when you review this PR's diff. (gstack)	references/commands/review.md	catalog/code-quality/gstack-review
+test-audit	Review & quality	1	Find low-value or duplicate tests and the test-only code they keep alive. (gstack)	references/commands/test-audit.md	catalog/testing-qa/gstack-test-audit
+verify	Review & quality	1	Use when coding: run the checks and tests /ship picks until green. (gstack)	references/commands/verify.md	catalog/code-quality/gstack-verify
+canary	Ship & deploy	1	Post-deploy canary monitoring. (gstack)	references/commands/canary.md	catalog/devops-cloud/gstack-canary
+document-generate	Ship & deploy	1	Generate missing documentation from scratch for a feature, module, or entire project. (gstack)	references/commands/document-generate.md	catalog/writing-docs/gstack-document-generate
+document-release	Ship & deploy	1	Release documentation audit. (gstack)	references/commands/document-release.md	catalog/writing-docs/gstack-document-release
+land-and-deploy	Ship & deploy	1	Land and deploy workflow. (gstack)	references/commands/land-and-deploy.md	catalog/ai-agents/gstack-land-and-deploy
+landing-report	Ship & deploy	1	Read-only queue dashboard for workspace-aware ship. (gstack)	references/commands/landing-report.md	catalog/devops-cloud/gstack-landing-report
+setup-deploy	Ship & deploy	1	Configure deployment settings for /land-and-deploy.	references/commands/setup-deploy.md	catalog/devops-cloud/gstack-setup-deploy
+ship	Ship & deploy	1	Ship it: merge the base, run tests, review the diff, bump VERSION and CHANGELOG, push and create a PR. (gstack)	references/commands/ship.md	catalog/ai-agents/gstack-ship
+browse	QA & browser	1	Drive a real browser through Aside: open a page, read it, click through a flow, take screenshots, check console errors. (gstack)	references/commands/browse.md	catalog/ai-agents/gstack-browse
+hackernews-frontpage	QA & browser	1	Scrape the Hacker News front page (titles, points, comment counts).	references/commands/hackernews-frontpage.md	catalog/integrations-automation/gstack-hackernews-frontpage
+open-gstack-browser	QA & browser	1	Launch GStack Browser — AI-controlled Chromium with the sidebar extension baked in.	references/commands/open-gstack-browser.md	catalog/ai-agents/gstack-open-gstack-browser
+qa	QA & browser	1	Use when you test the site, API or CLI and fix bugs. (gstack)	references/commands/qa.md	catalog/testing-qa/gstack-qa
+qa-only	QA & browser	1	Report browser/API/CLI/job/worker/webhook bugs. (gstack)	references/commands/qa-only.md	catalog/ai-agents/gstack-qa-only
+scrape	QA & browser	1	Pull data from a web page through the Aside browser — your real, already signed-in sessions. (gstack)	references/commands/scrape.md	catalog/integrations-automation/gstack-scrape
+setup-browser-cookies	QA & browser	1	Import cookies from your real Chromium browser into the headless browse session. (gstack)	references/commands/setup-browser-cookies.md	catalog/strategy-executive/gstack-setup-browser-cookies
+skillify	QA & browser	1	Codify the most recent successful /scrape flow into a permanent browser-skill on disk. (gstack)	references/commands/skillify.md	catalog/ai-agents/gstack-skillify
+design-consultation	Design & docs	1	Design consultation: understands your product, researches the landscape, proposes a complete design system (aesthetic, typography, color, layout, spacing, motion), and generates font+color preview... (gstack)	references/commands/design-consultation.md	catalog/design-ux/gstack-design-consultation
+design-html	Design & docs	1	Design finalization: generates production-quality Pretext-native HTML/CSS. (gstack)	references/commands/design-html.md	catalog/frontend-ui/gstack-design-html
+design-motion	Design & docs	1	Design motion: animate an approved design into a seamless MP4 and GIF loop. (gstack)	references/commands/design-motion.md	catalog/design-ux/gstack-design-motion
+design-review	Design & docs	1	Designer's eye QA: finds visual inconsistency, spacing issues, hierarchy problems, AI slop patterns, and slow interactions — then fixes them; --build checks UI while you build it. (gstack)	references/commands/design-review.md	catalog/code-quality/gstack-design-review
+design-shotgun	Design & docs	1	Design shotgun: generate multiple AI design variants, open a comparison board, collect structured feedback, and iterate. (gstack)	references/commands/design-shotgun.md	catalog/ai-agents/gstack-design-shotgun
+diagram	Design & docs	1	Turn an English description (or mermaid source) into a diagram triplet: the source, an editable .excalidraw file you can open on excalidraw.com, and rendered SVG + PNG. (gstack)	references/commands/diagram.md	catalog/writing-docs/gstack-diagram
+ios-design-review	Design & docs	1	Visual design audit for iOS apps on real hardware. (gstack)	references/commands/ios-design-review.md	catalog/design-ux/gstack-ios-design-review
+make-pdf	Design & docs	1	Turn any markdown file into a publication-quality PDF. (gstack)	references/commands/make-pdf.md	catalog/writing-docs/gstack-make-pdf
+ios-clean	iOS	1	Remove the DebugBridge SPM package and all #if DEBUG wiring from an iOS app. (gstack)	references/commands/ios-clean.md	catalog/mobile/gstack-ios-clean
+ios-fix	iOS	1	Autonomous iOS bug fixer. (gstack)	references/commands/ios-fix.md	catalog/mobile/gstack-ios-fix
+ios-qa	iOS	1	Live-device iOS QA for SwiftUI apps. (gstack)	references/commands/ios-qa.md	catalog/mobile/gstack-ios-qa
+ios-sync	iOS	1	Regenerate the iOS debug bridge against the latest upstream gstack templates. (gstack)	references/commands/ios-sync.md	catalog/mobile/gstack-ios-sync
+codex	Platform & infra	1	OpenAI Codex CLI wrapper — three modes. (gstack)	references/commands/codex.md	catalog/ai-agents/gstack-codex
+learn	Platform & infra	1	Manage project learnings.	references/commands/learn.md	catalog/ai-agents/gstack-learn
+setup-gbrain	Platform & infra	1	Set up gbrain for this coding agent: install the CLI, initialize a local PGLite or Supabase brain, register MCP, capture per-remote trust policy. (gstack)	references/commands/setup-gbrain.md	catalog/ai-agents/gstack-setup-gbrain
+sync-gbrain	Platform & infra	1	Keep gbrain current with this repo's code and refresh agent search guidance in CLAUDE.md. (gstack)	references/commands/sync-gbrain.md	catalog/ai-agents/gstack-sync-gbrain
+ubicloud	Platform & infra	1	Run a heavy suite, build or eval on an ephemeral 16-vCPU Ubicloud VM: TTL-named VMs, a reaper, quota preflight and a hang watchdog. (gstack)	references/commands/ubicloud.md	catalog/devops-cloud/gstack-ubicloud
+write-skill	Platform & infra	1	Write a new agent skill or improve one without bloat: the edit ladder, levels, drift and size checks, full diets. (gstack)	references/commands/write-skill.md	catalog/ai-agents/gstack-write-skill
